@@ -1,0 +1,47 @@
+body {
+    background-color: #f5f6f8;
+}
+
+.explorador-card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+    .explorador-card .card-body {
+        padding: 24px;
+    }
+
+.contenido-api {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen-api {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#textoCita {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+#textoDato {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+    .imagen-api {
+        height: 220px;
+    }
+
+    .contenido-api {
+        min-height: 150px;
+    }
+}
